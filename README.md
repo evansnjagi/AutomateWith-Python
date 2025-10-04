@@ -32,13 +32,13 @@ Variable names should describe the data type it contains and should be simple to
 
 
 
-&nbsp;	- Can't have spaces
+ 	- Can't have spaces
 
-&nbsp;	- Can't begin with a number
+ 	- Can't begin with a number
 
-&nbsp;	- Can't be a python keyword.
+ 	- Can't be a python keyword.
 
-Remember that variable names are case sensitive. There are two mostly used cases to separate words. \*\*camelCase\*\* and \*\*snake\_case\*\* 
+Remember that variable names are case sensitive. There are two mostly used cases to separate words. \*\*camelCase\*\* and \*\*snake\_case\*\*
 
 
 
@@ -52,5 +52,38 @@ What happens under the hood? Computers use binary(base-2) number system because 
 
 
 
-A program is a series of instructions and in most cases we don't want the program to excude all lines of code. This is where flow control comes in. Flow control statements decide which python instructions to execute under certain conditions. 
+A program is a series of instructions and in most cases we don't want the program to excude all lines of code. This is where flow control comes in. Flow control statements decide which python instructions to execute under certain conditions.
+
+
+
+Let us explore a little on boolen expression and operators(from Gorge Boolen). We have three most common boolean opearators and two boolean expressions. The two boolean expression are:
+
+ 	- True
+
+ 	- False
+
+While the three boolean expression are:
+
+ 	- And
+
+ 	- Or
+
+ 	- Not
+
+The boolen *and* and *or*  are considered as binary boolean operators because they check/ evaluate between two boolean expressions(values) while the boolean operator *not* is a unary boolean expression and it simply operate the opposite boolen.
+
+
+
+\*\*Note\*\* Boolean expression also follow order of operation just like in maths. The boolean expression  *not* is operated first, then *and* and finally or operator.
+
+
+
+**Components of control flow:**
+
+There are two main components included in control flow statements:
+
+1. Condition - This is the content of the control statement and always evaluate to a boolean value(True or False).
+2. Block of code - These are grouped lines of code. A block of code satisfies the followind conditions:
+
+ 	- A new block begins when indentation increases 														- A blo
 
