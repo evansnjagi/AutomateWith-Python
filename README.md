@@ -85,5 +85,5 @@ There are two main components included in control flow statements:
 1. Condition - This is the content of the control statement and always evaluate to a boolean value(True or False).
 2. Block of code - These are grouped lines of code. A block of code satisfies the followind conditions:
 
- 	- A new block begins when indentation increases 														- A blo
+ 	- A new block begins when indentation increase
 
